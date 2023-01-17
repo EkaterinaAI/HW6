@@ -35,13 +35,15 @@ public class Main {
             average = c;
         }
 
-        if (a > b && a > c) {
+        /*if (a > b && a > c) {
             greatest = a;
         } else if (b > a && b > c) {
             greatest = b;
         } else {
             greatest = c;
-        }
+        }*/
+
+        greatest = (a > b && a > c) ? a : (b > a && b > c) ? b : c;
 
         //todo
 
